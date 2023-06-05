@@ -17,7 +17,7 @@ public class MainActivity4 extends AppCompatActivity {
         Button btnactiv3 =findViewById(R.id.btnactiv3);
         btnactiv3.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {/home/mohamad/AndroidStudioProjects/MyApplication3
+            public void onClick(View view) {
                 Intent goacc3 =new Intent(MainActivity4.this,MainActivity3.class);
                 startActivity(goacc3);
             }
